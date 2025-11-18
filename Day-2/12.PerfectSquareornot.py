@@ -1,3 +1,8 @@
+'''12. Perfect Square or Not
+Question: Check if a number is a perfect square. 
+Explanation: A number is a perfect square if the square of its square root equals the number.
+- Input: Number = 49 - Output: Perfect square'''
+
 n= int(input("Enter Number:"))
 is_perfect = False
 for i in range(1,n+1):
